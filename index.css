@@ -1,0 +1,157 @@
+ul {
+  list-style: none;
+}
+
+.header__flex {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  color: white;
+  position: absolute;
+  font-size: 15px;
+}
+
+.header__ttl {
+  font-size: 30px;
+}
+
+.header__flex nav {
+  margin-left: 40px;
+}
+
+.header__flex ul {
+  display: flex;
+}
+
+.header__flex ul li {
+  margin-left: 20px;
+  padding: 0px 30px;
+}
+
+.firstview_img {
+  width: auto;
+}
+
+.firstview_img_item {
+  width: 100%;
+}
+
+.firstview_textbox {
+  color: aquamarine;
+}
+
+.mv {
+  width: 100%;
+  height: 300px;
+}
+
+.mv_img_1 {
+  position: absolute;
+}
+
+.mv_textbox {
+  position: relative;
+  color: aliceblue;
+  left: 10px;
+  top: 170px;
+}
+
+.mv_ttl {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.mv_text {
+  font-size: 15px;
+  width: 90%;
+}
+
+.mv_flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px 20px;
+}
+
+.style {
+  background: linear-gradient(rgb(0, 0, 0), rgb(190, 190, 190));
+}
+
+.style_ttl {
+  color: aliceblue;
+  font-size: 30px;
+  margin-left: 140px;
+  padding: 50px 0px;
+}
+
+.card_list_item {
+  margin: 20px;
+}
+
+.card_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.about_flex {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_img {
+  margin: 20px 40px;
+}
+
+.about_textbox {
+  width: 50%;
+  color: aliceblue;
+  margin-top: 100px;
+}
+
+.about_ttl_1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about_ttl_2 {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.about_text_1 {
+  margin-top: 60px;
+  width: 80%;
+}
+
+.about_text_2 {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.btn {
+  margin-top: 130px;
+  display: block;
+  width: 160px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+}
+
+.about_btn {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.copyright {
+  color: aliceblue;
+  background-color: black;
+  display: block;
+  text-align: center;
+  padding-top: 70px;
+}
